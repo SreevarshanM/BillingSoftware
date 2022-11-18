@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+.navbar {
+  --bs-navbar-nav-link-padding-x: 4rem;
+  /* margin-bottom: 2rem; */
+}
+.items {
+  color: #222;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.products {
+  margin-top: 6px;
+}
+
+.table {
+  --bs-table-striped-bg: #e3f2fd;
+}
+
+.quantity-input-box {
+  display: flex;
+  gap: 3px;
+}
+
+.plus-svg,
+.minus-svg {
+  width: 20px;
+}
+
+.plus-btn {
+  background-color: transparent;
+  color: #82c91e;
+  border: 1px solid transparent;
+}
+
+.minus-btn {
+  background-color: transparent;
+  color: #fa5252;
+  border: 1px solid transparent;
+}
+
+.plus-btn:hover {
+  border: 1px solid #82c91e;
+}
+
+.minus-btn:hover {
+  border: 1px solid #fa5252;
+}
+
+.form-control {
+  width: 3.5rem;
+}
+
+.search-bar {
+  width: 100%;
+  height: 2rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.mr-2 {
+  width: 20rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  transition: all 4ms;
+}
+.btn-outline-blue {
+  border: 1px solid #e3f2fd;
+}
+
+.btn:hover {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.cart-svg,
+.product-svg,
+.refresh-svg,
+.checkout-svg {
+  width: 20px;
+  color: #74c0fc;
+}
+
+.cart-btn,
+.product-btn,
+.refresh-btn {
+  text-decoration: none;
+  background-color: #fff;
+  color: #444;
+  font-weight: 400;
+  align-self: center;
+  padding: 5px 10px;
+  border: 1px solid #e3f2fd;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+.cart-btn:hover,
+.product-btn:hover,
+.refresh-btn:hover {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.search-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.page-btn {
+  display: flex;
+  gap: 1rem;
+}
+.checkout-container {
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-btn {
+  padding: 5px 10px;
+  color: #444;
+  background-color: #fff;
+  border: 1px solid #74c0fc;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.checkout-btn:hover {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */

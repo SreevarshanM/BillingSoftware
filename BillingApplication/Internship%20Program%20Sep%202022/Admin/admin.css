@@ -1,0 +1,157 @@
+/* ----------------------CUSTOMIZE CSS--------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+.navbar {
+  --bs-navbar-nav-link-padding-x: 2.5rem;
+  /* margin-bottom: 2rem; */
+}
+
+.container-box {
+  margin-top: 2rem;
+}
+
+.table {
+  --bs-table-striped-bg: #e3f2fd;
+}
+
+.page-heading {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding: 4px 8px;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.add-svg,
+.bi {
+  width: 20px;
+  color: #74c0fc;
+}
+
+.bi-trash-fill {
+  color: #fa5252;
+  transition: all 0.3s;
+}
+
+.add-product {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-title {
+  font-weight: 700;
+  display: inline-block;
+  align-self: center;
+  margin-bottom: 1px;
+  color: #444;
+}
+
+/* .filter-products {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.filter-products-delete {
+  text-decoration: none;
+  background-color: #fff;
+  color: #444;
+  font-weight: 400;
+  align-self: center;
+  padding: 5px 10px;
+  border: 1px solid #fa5252;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-products-delete:hover {
+  background-color: #fa5252;
+  color: #fff;
+}
+.filter-products-delete:hover .bi-trash-fill {
+  background-color: #fa5252;
+  color: #fff;
+}
+.update-product,
+.add-product,
+.filter-products {
+  text-decoration: none;
+  background-color: #fff;
+  color: #444;
+  font-weight: 400;
+  align-self: center;
+  padding: 5px 10px;
+  border: 1px solid #e3f2fd;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.update-product:hover,
+.add-product:hover,
+.filter-products:hover {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.items {
+  color: #222;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.catgory-text {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.products {
+  margin-top: 6px;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+.display {
+  display: none !important;
+}
+
+.filter-box {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.filter-button {
+  padding: 6px 8px;
+  border-radius: 9px;
+  background-color: #fff;
+  border: 1px solid #e3f2fd;
+  transition: all 0.3s;
+}
+
+.filter-button:hover,
+.filter-button:active {
+  background-color: #e3f2fd;
+  color: #222;
+  border: 1px solid #fff;
+}

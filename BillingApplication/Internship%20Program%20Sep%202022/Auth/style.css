@@ -1,0 +1,24 @@
+/* ----------------------CUSTOMIZE CSS--------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+
+  font-weight: 400;
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 2.5rem;
+}
+
+.container-box {
+  max-width: 35rem;
+  margin-top: 60px;
+  border: 2px solid #e3f2fd;
+  padding: 5rem 5rem;
+}

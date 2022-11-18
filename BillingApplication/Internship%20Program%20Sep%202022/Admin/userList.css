@@ -1,0 +1,132 @@
+/* ----------------------CUSTOMIZE CSS--------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+.navbar {
+  --bs-navbar-nav-link-padding-x: 2.5rem;
+  /* padding: 1.6rem; */
+  /* margin-bottom: 2rem; */
+}
+
+.container-box {
+  margin-top: 2rem;
+}
+
+.table {
+  --bs-table-striped-bg: #e3f2fd;
+}
+
+.page-heading {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding: 4px 8px;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+/* .waiting-btn {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.page-title {
+  font-weight: 700;
+  display: inline-block;
+  align-self: center;
+  margin-bottom: 1px;
+  color: #444;
+}
+
+/* .filter-products {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+  } */
+
+.reject-btn,
+.waiting-btn,
+.approved-btn {
+  text-decoration: none;
+  background-color: #fff;
+  color: #444;
+  font-weight: 400;
+  align-self: center;
+  padding: 5px 10px;
+  border: 1px solid #e3f2fd;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.reject-btn:hover,
+.waiting-btn:hover,
+.approved-btn:hover {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.list-title {
+  color: #222;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.catgory-text {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.products {
+  margin-top: 1rem;
+}
+
+.btn-yes,
+.btn-no {
+  padding: 2px 4px;
+  width: 3rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-yes {
+  background-color: transparent;
+  color: #82c91e;
+  border: 1px solid transparent;
+}
+
+.btn-no {
+  background-color: transparent;
+  color: #fa5252;
+  border: 1px solid transparent;
+}
+
+.yes-icon,
+.no-icon {
+  width: 24px;
+}
+
+.btn-yes:hover {
+  border: 1px solid #82c91e;
+}
+
+.btn-no:hover {
+  border: 1px solid #fa5252;
+}
